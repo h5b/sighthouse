@@ -5,7 +5,7 @@ authors = [
   {name="Benoît FORGETTE aka MadSquirrel"},
   {name="Sami BABIGEON aka Fenrisfulsur"}
 ]
-license = "MIT"
+license = {file="LICENSE"}
 version = "1.0.0"
 dependencies = [
 ]

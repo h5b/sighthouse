@@ -63,6 +63,10 @@ install-dev: install-hooks
 	@. ./venv/bin/activate && pip install .[all]
 	@. ./venv/bin/activate && pip install pytest mypy black pytest-cov
 
+release:
+	@. ./venv/bin/activate && pip install build wheel
+
+
 clean: # Clean build artefacts
 	@echo "[+] Clean"
 	@find . -name '__pycache__' -type d -exec rm -rf {} +
